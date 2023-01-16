@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-tooltip-coding-ninja-project/static/css/main.2d026998.css",
+    "main.js": "/react-tooltip-coding-ninja-project/static/js/main.880cda80.js",
+    "static/js/787.2390e407.chunk.js": "/react-tooltip-coding-ninja-project/static/js/787.2390e407.chunk.js",
+    "index.html": "/react-tooltip-coding-ninja-project/index.html",
+    "main.2d026998.css.map": "/react-tooltip-coding-ninja-project/static/css/main.2d026998.css.map",
+    "main.880cda80.js.map": "/react-tooltip-coding-ninja-project/static/js/main.880cda80.js.map",
+    "787.2390e407.chunk.js.map": "/react-tooltip-coding-ninja-project/static/js/787.2390e407.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d026998.css",
+    "static/js/main.880cda80.js"
+  ]
+}
