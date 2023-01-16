@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* set background gradient */
+  background: linear-gradient(-45deg, #ee765269, #e73c7e6b, #23a5d556, #23d5ab62);
+  background-size: 400% 400%;
+  /* animation for continous change of gradient */
+  animation: gradient 8s ease infinite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* keyframes for running animation continuously */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* class added to main container to set height and margin */
+.main {
+  height: 70vh !important;
+  margin-top: 2em;
 }
